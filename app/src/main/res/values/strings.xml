@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SecuredNotepad</string>
+    <string name="Welcome">If you forgot your password, the note will be deleted</string>
+    <string name="Password">Password</string>
+    <string name="SecureNotepad">Secure Notepad</string>
+    <string name="Login">Log In</string>
+    <string name="ChangeNote">Change Note</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="Reset">Reset Password</string>
+    <string name="Back">Save and Back</string>
+    <string name="Empty" />
+    <string name="Register">Register</string>
+    <string name="TypePassword">Type your password here</string>
+    <string name="TypeNewPassword">Type your new password here</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="RepeatPassword">Repeat New Password</string>
+    <string name="ChangePass">Type your new password</string>
+    <string name="ForgetPass">Forgot your password?</string>
+</resources>

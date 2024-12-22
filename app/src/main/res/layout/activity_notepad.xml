@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Notepad">
+
+    <ImageView
+        android:id="@+id/notepadImg2"
+        android:layout_width="133dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="32dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notepad_icon" />
+
+    <EditText
+        android:id="@+id/changeNoteText"
+        android:layout_width="305dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_note"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Empty"
+        android:inputType="textMultiLine"
+        android:paddingStart="12dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="12sp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notepadImg2"
+        tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/Reset"
+        android:textAllCaps="false"
+        android:textColor="#494949"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/changeNoteText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/changeNoteText" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="@string/Back"
+        android:textAllCaps="false"
+        android:textColor="#494949"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReset"
+        app:layout_constraintVertical_bias="0.477" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
